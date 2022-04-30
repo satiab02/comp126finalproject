@@ -1,9 +1,4 @@
-.red{
-    background-color: rgb(255, 197, 197);
-}
-.blue{
-    background-color: rgb(158, 158, 228);
-}
+
 
 body{
     height: min-content;
@@ -21,7 +16,7 @@ body{
 .profile-img {
     width: 350px;
     margin: 0px;
-    background-color: #A0ABFF;
+    background-color: #b7bef8;
     
   }
   
@@ -104,13 +99,18 @@ input[type=text], input[type=email], select, textarea {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-    margin-top: 60px;
+    margin-top: 10px;
     margin-bottom: 60px;
   }
 
-  .btn-primary{
+  .btn-secondary{
       background-color: #A0ABFF;
-      
+        
+  }
+  .btn-secondary:hover{
+
+      background-color: #7d85c7;
+
   }
 
   .icon-lable{
@@ -125,3 +125,7 @@ input[type=text], input[type=email], select, textarea {
       color: #7179b4;
   }
 
+  #heading{
+    color: #7d85c7;
+    font-size: 3em;
+  }
