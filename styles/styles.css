@@ -29,6 +29,12 @@ body{
     margin:60px;
 }
 
+.logo{
+  margin: auto;
+  text-align: center;
+
+}
+
 .center{
     margin: auto;
     text-align: center;
